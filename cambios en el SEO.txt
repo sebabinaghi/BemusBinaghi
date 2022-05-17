@@ -1,0 +1,5 @@
+Agregué Keywords a todos mis Html y son las siguientes: "Hombres", "Mujeres", "Niños", "Remeras", "Pantalones", "Zapatillas", "Shorts", "Accesorios".
+
+También agregué la siguiente descripción: "Somos una tienda online de ropa dedicada a la venta online y presencial de ropa deportiva para niños y adultos".
+
+Los Títulos de las páginas ya los tenía desde antes, pero son: "Bemus - (nombre de la página en la que uno aprieta para dirigirse: Hombres/Mujeres/Niños/Unisex/Nosotros)

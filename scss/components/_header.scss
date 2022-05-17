@@ -1,0 +1,35 @@
+header {
+    @import "../base/operaciones";
+    .bemus { text-decoration: none;}
+    h1 { background-color: black;
+        text-align: center;
+        color: rgb(0, 255, 255);
+        font-family: 'Big Shoulders Stencil Text', cursive;
+        font-size: 40px;
+        margin: 0;
+    }
+    nav ul {text-decoration: none;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        background-color: black;
+        margin: 0;
+    }
+    .fila {display: flex;
+        flex-direction: row;
+    }
+    .genero {
+        margin: 30px;
+        padding: 5px;
+    }
+    .generos {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        padding: 10px;
+        font-size: 20px;
+        font-family: 'Big Shoulders Stencil Text', cursive;
+            &:hover { color: chartreuse;
+            background-color: rgb(32, 32, 32);}
+    }  
+
+}

@@ -1,0 +1,31 @@
+img {width: 230px; height: 230px;}
+.imagen {object-fit: cover;}
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex {width: 250px;
+    border: 1px solid rgb(184, 184, 184);
+    margin: 0 auto;
+    p {text-align: center;}
+}
+.flex:hover {transform: scale(1.05, 1.05);}
+
+.descripcion {font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 17px;
+    &:hover {transform: scale(1.1, 1.1);}
+}
+.precio {font-family:'Big Shoulders Stencil Text', cursive; 
+    font-size: 20px; 
+    color: mediumblue; 
+    text-align: center;
+    &:hover {transform: scale(1.1, 1.1); 
+}
+.comprar {text-decoration: none;
+    color: cyan;
+    background-color: black;
+    padding: 5px;
+    border-radius: 20px;
+    &:hover {color: lime;
+            background-color: #5e5e5e;}
+}}

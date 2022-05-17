@@ -1,0 +1,24 @@
+$enviar: (
+    bg-enviar: lightgrey,
+    color-enviar: black,
+    border-enviar: 1px solid black,
+    
+);
+
+$reset: (
+    bg-reset: rgb(169, 93, 255),
+    color-reset: black,
+    border-reset: 1px solid rgb(0, 0, 0),
+);
+
+.enviar {
+    background-color: map-get($map: $enviar, $key: bg-enviar);
+    color: map-get($map: $enviar, $key: color-enviar);
+    border: map-get($map: $enviar, $key: border-enviar);
+}
+
+.reset {
+    background-color: map-get($map: $enviar, $key: bg-reset);
+    color: map-get($map: $reset, $key: color-reset);
+    border: map-get($map: $reset, $key: border-reset);
+}

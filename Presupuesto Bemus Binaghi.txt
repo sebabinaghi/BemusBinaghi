@@ -1,0 +1,29 @@
+Hola buenas tardes. Te envío el presupuesto de lo coordinado en la entrevista. Cualquier consulta o inquietud, estoy a tu disposición.
+
+EL trabajo se basa en:
+
+-Diseño estético y funcional de la página.
+-Diseño adaptado a múltiples pantallas.
+-Armado y maquetado de página web, la cual puede ser mantenida y actualizada con el correr del tiempo.
+-Confección de SEO (mejoras en el código para tener un buen posicionamiento en los buscadores).
+-Consideraciones de accesibilidad y usabilidad de la página.
+- Configuraciones y ajustes de performance (buen rendimiento y carga rápida con poco uso de datos).
+-Identidad propia de estilo.
+- Trabajo de material gráfico (edición de imágenes/videos, en caso de no ser proporcionados por el cliente).
+-Programar la web, subirla a un servidor de hosting para ir mostrando resultados.
+-Se utilizará VisualStudio Code, Git, Github y Light House
+-Se irá mostrando resultado semana a semana al cliente.
+
+Valor: $ 35.000
+
+Aclaraciones: 
+-El valor no incluye hosting y dominio (nombre del link de la página).
+-El material gráfico deberá ser proporcionado por el cliente.
+
+Forma de pago: 
+Adelanto de al menos el 30% del valor total y lo restante al finalizar la web.
+
+Medios de pago:
+-Transferencia bancaria
+-MercadoPago
+-Efectivo

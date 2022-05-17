@@ -1,0 +1,52 @@
+@media (max-width: 1280px) {
+    .fila {display: flex; flex-direction: column;}
+    .nav ul {display: flex; flex-direction: column;}
+    .novedades1 {display: flex; flex-direction: row;}
+    .novedades2 {display: flex; flex-direction: row;}
+    .novedades3 {display: flex; flex-direction: row;}
+    .contenedor {display: flex; flex-direction: column;}
+}
+
+@media (max-width: 920px) {
+    .flex {margin: 7px 0px;}
+    .fila2 {display: flex; flex-direction: column; justify-content: center;}
+}
+
+@media (max-width: 770px) {
+    .promo {overflow: scroll;}
+    .grid {margin: 0 auto 300px auto;}
+    nav ul {display: flex; flex-direction: column;}
+}
+
+@media (max-width: 545px) {
+    .novedades1 {display: flex; flex-direction: column;}
+    .novedades2 {display: flex; flex-direction: column;}
+    .novedades3 {display: flex; flex-direction: column;}
+    .fila2 {display: flex;
+        flex-direction: row;
+        justify-content: center; }
+    .grid {margin: 0 auto 600px auto;}
+    .grid2 {display: inline;}
+    .video {margin-top: 10px;}
+    .cards {display: flex; flex-direction: column;}
+    .cards2 {width: 90%;}
+    footer ul li {display: flex; flex-direction: column;}
+}
+
+@media (max-width: 415px) {
+    .grid {margin: 0 auto 600px auto;}
+    .video {margin-top: 10px;}
+}
+
+@media (max-width: 376px) {
+    .grid {margin: 0 auto; display: inline; }
+    .video {margin-top: 30px;}
+}
+
+@media (max-width: 285px) {
+    .generos { font-size: 15px;}
+    .grid {margin: 0 auto; display: inline;}
+    .video {margin-top: 30px;}
+    .fotito2 {margin: 0; width: 100%;}
+    .fotito3{margin: 0; width: 100%;}
+}

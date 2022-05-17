@@ -1,0 +1,81 @@
+main { margin-bottom: 60px;
+    @import "base/variables";
+    h1 {color: #019e9e;
+        font-family: 'Anton', sans-serif;
+        font-size: 35x;}
+    h2 {text-align: center;
+        color: $color-secundario;
+        margin-top: 10px;
+        font-family: 'Anton', sans-serif;
+        font-size: $tamaño-subtitulos;
+    }
+    .contenedor {
+        display: flex;
+        justify-content: center;
+    }
+    .novedades1 {
+        margin: 20px auto 0 auto;
+        max-width: fit-content;
+    }
+    .novedades2 {
+        display: flex;
+        justify-content: center;
+        margin: 20px auto 0 auto;
+        max-width: fit-content;
+    }
+    .ropa {margin: 10px 60px;}
+    .fotito { opacity: 1; transition: ease .5s;
+        &:hover {
+            border: rgb(231, 231, 231) 1px solid;
+            transform: scale(1.03, 1.03);}
+    }
+    .fotito2 {width: 300px;
+        height: 350px;
+        margin: 10px 60px;
+        transition: ease .5s;
+            &:hover {border: rgb(231, 231, 231) 1px solid;
+            transform: scale(1.03, 1.03);}
+    }
+    .fotito3 {
+        width: 300px;
+        height: 400px;
+        margin: 10px 60px;
+        transition: ease .5s;
+            &:hover {
+            border: rgb(231, 231, 231) 1px solid;
+            transform: scale(1.03, 1.03);}
+    }
+    .fotitoo {opacity: 1; transition: ease .5s;
+        &:hover {border: rgb(231, 231, 231) 1px solid;
+        transform: scale(1.03, 1.03);}
+    }
+    .carousel {justify-content: center;}
+    .carrusel {
+        padding: 10px;
+        background-color: rgb(201, 201, 201);
+    }
+    .carru {margin: 0 auto; object-fit: cover;}
+
+    /* código para la sección promociones*/
+    .promo {
+        border: rgb(185, 113, 77) solid 4px;
+        background-color: white;
+        padding: 10px;
+        margin: 40px auto;
+        border-radius: 10px;
+        max-width: fit-content;
+            &:hover { box-shadow: rgb(154, 156, 158) 2px 2px 2px 2px;
+                    border-color: rgb(121, 238, 121);
+                    border-radius: 10px;
+                    transition: 0.3s linear;}
+    }
+    .tarjeta {width: 100px; height: 65px; padding: 10px; transition: ease .5s;
+        &:hover {transform: scale(1.2, 1.2);}
+    }
+    /* código para el botón Volver */
+    @import "base/extends";
+    @import "base/mixins";
+    .volver {display: flex;
+            justify-content: center;
+        a {text-decoration: none;} }
+}

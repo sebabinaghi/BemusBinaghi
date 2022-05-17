@@ -1,0 +1,19 @@
+{
+  "name": "version-final",
+  "version": "1.0.0",
+  "description": "Somos una tienda virtual de venta de todo tipo de prendas deportivas para todas las edades",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+
+  "build-css": "node-sass --include-path scss scss/estilos.scss css/estilos.css",
+  "watch-css": "nodemon -e scss -x \"npm run build-css\""},
+  
+
+  "author": "sebabinaghi",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}

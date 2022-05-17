@@ -1,0 +1,17 @@
+@mixin boton {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    border: 2px solid lime;
+    border-radius: 70px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+        &:hover { color: lime;
+                        text-decoration: none;}
+}
+
+.volver {
+    @include boton;
+}

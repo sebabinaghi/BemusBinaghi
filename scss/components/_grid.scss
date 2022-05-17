@@ -1,0 +1,49 @@
+/* codigo de grid para todas las paginas */
+.grid2 {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;  
+    align-content: stretch;
+    justify-content: stretch;
+    width: 100%;
+    margin: 0 auto;
+    height: 580px; 
+    grid-template-areas: "Headergrid "
+                         "Maingrid "
+                         "Footergrid";
+    font-family: 'Roboto', sans-serif;
+}
+
+.Headergrid {
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 50px;
+    grid-area: Headergrid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+.Maingrid {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    line-height: 50px;
+    grid-area: Maingrid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+.Footergrid {
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    grid-area: Footergrid;
+}
